@@ -22,7 +22,8 @@ Running as admin/root allows the program to listen to all system keyboard events
 
 ## HOW TO INSTALL PYTHON AND REQUIRED PACKAGES?
 
-1. **Check Python installation:**  
+1. **Check Python installation:**
+   
    ```bash
    python3 --version
 
