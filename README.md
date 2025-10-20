@@ -29,29 +29,13 @@ Running as admin/root allows the program to listen to all system keyboard events
    
 If not installed, install with your system’s package manager:
 
-***Ubuntu/Debian:***
+| Operating System       | Commands                                                        |
+|-----------------------|-----------------------------------------------------------------|
+| **Ubuntu/Debian**      | `sudo apt update && sudo apt install python3 python3-pip`       |
+| **Fedora**             | `sudo dnf install python3 python3-pip`                          |
+| **macOS (with Homebrew)** | `brew install python`                                         |
+| **Install required packages** | `pip3 install keyboard rich` <br> (If pip3 not found, try: `python3 -m pip install keyboard rich`) |
 
-sudo apt update && sudo apt install python3 python3-pip
-
-
-***Fedora:***
-
-**sudo dnf install python3 python3-pip**
-
-
-***macOS (with Homebrew):***
-
-**brew install python**
-
-
-***Install required packages:***
-
-**pip3 install keyboard rich**
-
-
-(If pip3 not found, try:)
-
-**python3 -m pip install keyboard rich**
 
 USAGE
 
